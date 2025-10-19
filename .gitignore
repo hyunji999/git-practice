@@ -9,7 +9,7 @@ git rm —cached [file name] :  unstaging
 ---
 .gitignore :  ignoring a file 
 
-  *.a : 
+  .a : 
   확장자가 a인 파일 무시 
 
   build/ : 
