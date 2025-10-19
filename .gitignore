@@ -1,6 +1,6 @@
-#  Git Ignore & Commit 정리
+# Git Ignore & Commit 정리
 
-##  기본 개념
+## 기본 개념
 
 - `$` 는 상관이 없다.  
 - `git add` → **staging area로 올림**  
@@ -9,7 +9,7 @@
 
 ---
 
-##  .gitignore 예시
+## .gitignore 예시
 
 | 패턴 | 설명 |
 |------|------|
@@ -17,7 +17,8 @@
 | `build/` | 이름이 `build`인 폴더(및 그 안의 모든 파일) 무시 |
 
 ---
-##  Commit 하는 법
 
+## Commit 하는 법
+
+```bash
 git commit -m "commit message"
-
