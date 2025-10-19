@@ -1,2 +1,9 @@
-# git-practice
-this is git practice repository.
+
+## Git Practice Repository
+
+This repository for practicing .  
+
+
+### welcome to my "git-practice" repository!
+
+today is October .
