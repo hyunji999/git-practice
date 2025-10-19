@@ -1,22 +1,23 @@
-## this is ignore file.
-------
-($ 는  상관이 없다.)
+#  Git Ignore & Commit 정리
+
+##  기본 개념
+
+- `$` 는 상관이 없다.  
+- `git add` → **staging area로 올림**  
+- `git rm --cached [file name]` → **unstaging (스테이징 해제)**  
+- `.gitignore` → **특정 파일 또는 폴더 무시**
 
 ---
-git add : staging area 
----
-git rm —cached [file name] :  unstaging
----
-.gitignore :  ignoring a file 
 
-  .a : 
-  확장자가 a인 파일 무시 
+##  .gitignore 예시
 
-  build/ : 
-  이름이 빌드인 모든 파일 무시
-
+| 패턴 | 설명 |
+|------|------|
+| `*.a` | 확장자가 `.a`인 모든 파일 무시 |
+| `build/` | 이름이 `build`인 폴더(및 그 안의 모든 파일) 무시 |
 
 ---
-<<commit 하는법 >>
-git commit -m “commit messageˮ
+##  Commit 하는 법
+
+git commit -m "commit message"
 
