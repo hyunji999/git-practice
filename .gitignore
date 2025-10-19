@@ -1,10 +1,22 @@
 ## this is ignore file.
-
- ($ 는 노 상관이다.)
-
 ------
+($ 는  상관이 없다.)
 
-".a"
-.a 로끝나는 모든 파일 무시하기
+---
+git add : staging area 
+---
+git rm —cached [file name] :  unstaging
+---
+.gitignore :  ignoring a file 
 
+  *.a : 
+  확장자가 a인 파일 무시 
+
+  build/ : 
+  이름이 빌드인 모든 파일 무시
+
+
+---
+<<commit 하는법 >>
+git commit -m “commit messageˮ
 
