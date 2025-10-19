@@ -1,7 +1,7 @@
 
 ## Git Practice Repository
 
-This repository for practicing .  
+This repository is for practicing .  
 
 
 ### welcome to my "git-practice" repository!
